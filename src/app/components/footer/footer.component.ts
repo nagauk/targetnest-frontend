@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h5>🏠 RealEstate Platform</h5>
+            <h5>🏠 TargetNest RealEstate Platform</h5>
             <p>Your trusted partner for buying, selling, and renting properties.</p>
           </div>
           <div class="col-md-4">
