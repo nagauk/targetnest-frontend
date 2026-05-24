@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ng update *)",
+      "Bash(ng serve *)",
+      "Bash(curl -s -X POST http://localhost:8080/auth/register -H \"Content-Type: application/json\" -d '{\"firstName\":\"Test\",\"lastName\":\"User\",\"email\":\"test@example.com\",\"phone\":\"1234567890\",\"password\":\"password123\"}')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/auth/register)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :8080)",
+      "Bash(curl -X POST http://localhost:8080/auth/register -H \"Content-Type: application/json\" -d \"{\\\\\"firstName\\\\\":\\\\\"Test\\\\\",\\\\\"lastName\\\\\":\\\\\"User\\\\\",\\\\\"email\\\\\":\\\\\"test@example.com\\\\\",\\\\\"phone\\\\\":\\\\\"1234567890\\\\\",\\\\\"password\\\\\":\\\\\"password123\\\\\"}\" -v)",
+      "Bash(taskkill /F /PID 35024)",
+      "Bash(mvn spring-boot:run)"
+    ]
+  }
+}
