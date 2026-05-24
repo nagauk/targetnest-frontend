@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/targetnest-frontend/browser",
+    "public": "dist/real-estate-frontend",
     "ignore": [
       "firebase.json",
       "**/.*",
