@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/real-estate-frontend",
+    "public": "dist/real-estate-frontend/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
